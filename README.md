@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 - **Dataset** - _contains the csv files._
 - **SavedModel** - _contains the saved parameters of the classifier._
-- **__pycache__/** - _contains the bytecode._
+- **pycache** - _contains the bytecode._
 - **img** - _contains the image for README.md file._
 - **LICENSE** - _License information._
 - **README.md** - _Documentation of the repository._
