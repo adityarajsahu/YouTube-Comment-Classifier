@@ -6,7 +6,7 @@ This aim of this project is to train a Random Forest classifier to classify YouT
 
 Random forest or random decision forest is a method that operates by constructing multiple decision trees during training phase. The decision of the majority of the trees is chosen by random forest as the final decision.
 
-[Random Forest Image](img/random_forest_image.png)
+![Random Forest Image](img/random_forest_image.png)
 
 ## Dataset
 
