@@ -11,14 +11,16 @@ def processor(df):
     df_content = df['CONTENT']
     df_label = df['CLASS']
     
+    """
     vectorizer = CountVectorizer(ngram_range=(0, 2), lowercase=True)
     df_vectorized = vectorizer.fit_transform(df_content)
     
     filename_vec = 'SavedModel/vectorizer1.pkl'
     pickle.dump(vectorizer, open(filename_vec, 'wb'))
+    """
     
     transformer = TfidfTransformer()
-    df_transformed = transformer.fit_transform(df_vectorized)
+    df_transformed = transformer.fit_transform(df_content)
     filename_trans = 'SavedModel/transformer1.pkl'
     pickle.dump(transformer, open(filename_trans, 'wb'))
     
